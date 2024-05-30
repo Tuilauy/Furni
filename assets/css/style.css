@@ -45,7 +45,7 @@
 .header .inner-list li a:hover{
     color: #fff;
     border-bottom: 5px #f9bf29 solid;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .header .icon li{
@@ -324,3 +324,69 @@
     opacity: 0.7;
 }
 /* EndSection-two */
+
+/* section-two-shop */
+.section-two-shop{
+    background-color: #eff2f1;
+}
+
+.section-two-shop h2{
+    font-weight: 700;
+    font-size: 32px;
+    color: #2f2f2f;
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+
+.section-two-shop .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    height: 500px;
+}
+
+.section-two-shop .container .inner-content{
+    position: relative;
+    width: calc(100%/4 - 20px);
+    aspect-ratio: 1/2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-two-shop .container .inner-content img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all 1s ease;
+    z-index: 2;
+}
+
+.section-two-shop .container .inner-content .inner-sale{
+    display: flex;
+    color: #2f2f2f;
+    position: absolute;
+    top: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 33%;
+}
+
+.section-two-shop .container .inner-content .inner-sale .inner-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-two-shop .container .inner-content .inner-sale .inner-price{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.section-two-shop .container .inner-content:hover > img{
+    top: -5%;
+}
+/* Endsection-two-shop */
